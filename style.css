@@ -1,0 +1,307 @@
+html{
+
+ font-family: 'Montserrat', sans-serif;
+ font-weight:400;
+ font-size:20px;
+ color:#ffffff;
+ text-rendering:'optimizelegibility';
+}
+
+ body{
+   background-color:#000000;
+ }
+
+ /******* HEADINGS ********/
+
+   h1,
+   h2,
+   h3,
+   p {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+      text-transform: uppercase;
+        color:#ffffff;
+   }
+
+   h1{
+
+
+      margin-bottom: 20px;
+      color: #fff;
+      font-size: 240%;
+      word-spacing: 4px;
+      letter-spacing: 1px;
+   }
+
+
+.carousel-caption{
+  /** adding a margin-bottom makes a perfect square v.s padding makes the box longer at the bottom***/
+  margin-bottom: 30%;
+  font-style:bold;
+    font-weight: 950;
+    /******* This gives the box a transparent color   ******/
+    background: rgba(0,0,0,0.6) 10px 5px;
+
+
+}
+
+
+
+.carousel-caption h5{
+font-size: 200%;
+
+
+}
+
+..carousel-caption p{
+    font-size: 100%;
+
+}
+
+
+    a{
+      color:#ffffff;
+    }
+
+/******* *******/
+
+.btn{
+  border-radius: 5%;
+  background-color:#ff1a75;
+  border-color:#ffffff;
+  box-shadow: 3px 3px 5px #777;
+}
+
+.btn-primary{
+    color:#ffffff;
+
+
+}
+
+.btn:hover,
+.btn:active{
+  background-color:#ffffff;
+  border-color:black;
+}
+
+.btn-primary:hover,
+.btn-primary:active{
+  color:black;
+
+}
+
+/******* *******/
+
+
+ header {
+
+
+ }
+
+/******* *******/
+.container-parent{
+
+}
+
+/******* *******/
+section{
+   margin-top: 20px;
+   margin-bottom: 20px;
+    border:1px solid #ff1a75;
+
+}
+/******* NAV *******/
+.navbar{
+  padding-bottom: 1.5rem;
+}
+
+.nav-item{
+  /* 0 top& bottom/ 18px left&right */
+  padding: 0 18px;
+
+}
+
+.navbar-brand{
+      width:20%;
+
+
+}
+
+/*****************/
+
+
+
+
+
+
+.carousel-item{
+    height:auto;
+    overflow:hidden;
+    width:75%;
+    margin-left: 13.5%;
+
+    margin-top: 0;
+    margin-bottom: 20px;
+
+
+
+}
+
+
+.carousel-item > img {
+      width: 75%;
+      border-radius: 3%;
+      border:9px double #ff1a75;
+
+
+
+}
+
+
+
+
+
+/*******  ******/
+a{
+
+  font-size: 0.9rem;
+  font-weight:bold;
+  margin-left: 20px;
+
+
+
+
+}
+
+/******* *******/
+Ul{
+      font-family: 'Montserrat', sans-serif;
+      border:4px double #ff1a75;
+
+
+}
+
+
+/******* *******/
+.container-fluid{
+  /* 3% is top and bottom 15% left and right */
+    padding: 3% 15%;
+
+}
+
+/******* *******/
+.main-page{
+   position:absolute;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+
+/******* *******/
+
+.stopwatch-outline{
+  font-size: 350%;
+  display:block;
+  color: #ffffff;
+  margin-bottom: 10px;
+  margin-left: 18%;
+}
+
+.cart-outline{
+  font-size: 350%;
+  display:block;
+  color: #ffffff;
+  margin-bottom: 10px;
+    margin-left: 30%;
+}
+/******* *******/
+
+
+.features{
+
+ }
+/******* *******/
+#menu-section{
+    padding: 100px;
+
+
+
+}
+
+#menu-title{
+    text-align:center;
+    padding-right:3%;
+}
+
+
+#menu-sum{
+    margin-left:23%;
+    text-align:center;
+    padding-top: 25px;
+}
+
+
+
+
+.menu-list{
+  margin-left: 60px;
+
+}
+
+
+
+
+/*************/
+
+.card-header{
+    background-color:#ff1a75;
+    border:4px double #ff1a75;
+    text-align: center;
+}
+
+
+.card-body{
+    background-color: black;
+    border:4px double #ff1a75;
+    text-align: center;
+
+}
+
+.card-footer{
+  background-color: black;
+}
+
+/******************/
+.list-items{
+  padding: 10px 50px 10px 0px;
+
+ list-style:none;
+
+}
+
+.list-items p{
+    font-size: 0.9rem;
+  font-weight:bold;
+  margin-right:30px;
+  margin-top: 40px;
+
+}
+
+#lakers{
+  font-family: 'Montserrat', sans-serif;
+  font-style: bold;
+  font-weight:400;
+    font-size:15px;
+    color: #ffffff;
+}
+
+
+/******* *******/
+#contact{
+    margin-left:40%;
+}
+
+.contact-us{
+        margin-left:28%;
+
+}
